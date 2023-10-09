@@ -1,17 +1,8 @@
 ---
-title: Scalable and resilient cloud-native integration
-  300-level live demo
-description: Scalable and resilient cloud-native integration
-tabs: [ 'Demo preparation', 'Demo script']
+title: Scalable and resilient cloud-native integration <br/>300-level live demo
+layout: preparation
+banner: images/scalable-resilient-integration-banner-SCRIPT-5-25-23.jpg
 ---
-
-export const Title = () => (
-  <span>
-    <h1 style="font-size:60px;">Scalable and resilient cloud-native integration
- <br/> 300-level live demo</h1>
-  </span> );
-
-![banner](./images/scalable-resilient-integration-banner-SCRIPT-5-25-23.jpg)
 
 <span id="top"></span>
 
