@@ -1,6 +1,6 @@
 ---
 title: Managing events and APIs from a unified environment <br/>300-level live demo
-layout: preparation
+layout: demoscript
 banner: images/banner.jpg
 ---
 

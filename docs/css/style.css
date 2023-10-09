@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url('fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-BoldItaltic.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-ExtraLight.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-ExtraLightItalic.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-Italic.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-Light.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-LightItalic.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-Medium.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-MediumItalic.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-Regular.ttf') format('truetype');
+    src: url('fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: "IBM Plex Sans Light";
+    src: url('fonts/IBMPlexSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "IBM Plex Sans Regular";
+    src: url('fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+h1{
+    font-weight: 300;
+    font-family: "IBM Plex Sans Light","Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    font-size: 56px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+h3{
+    margin: auto;
+    margin-left: 5px;
+    font-family: "IBM Plex Sans Light","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+}
+
+header{
+    font-size: 50px;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    height: 47px;
+    align-items: center;
+    border-bottom: 1px solid #393939;
+    background-color: #161616;
+}
+
+.demo-header {
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 32px;
+    height: 290px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #393939;
+    margin: 0;
+    padding-bottom: 32px;
+    vertical-align: baseline;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    line-height: 1.17;
+    letter-spacing: 0;
+}
+
+.header-buttons {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    height: 43px;
+    border-bottom: 1px solid #393939;
+    background-color: #000; 
+    padding-left: 32px;
+    color: #fff;
+}
+
+.header-button {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: #000; 
+    padding-left: 5px;
+    margin: 0;
+    width: 150px;
+    color: #fff;
+}
+
+.header-button:hover {
+    background-color: #393939; 
+}
+
+.header-button-selected {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: #393939; 
+    border-top-color: #0f62fe;
+    border-top-style: solid;
+    border-top-width: 2.6666666px;
+    padding-left: 5px;
+    margin: 0;
+    width: 150px;
+    color: #fff;
+    
+}
+
+.white-text{
+    color: #fff;
+    margin: auto;
+    margin-left: 10px;
+    font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    text-decoration: solid;
+    text-align: left;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+}
+
+.banner{
+    padding-top: 70px;
+    padding-left: 32px;
+}
+
+table :is(td){
+    background-color: #f4f4f4;
+}
+
+table :is(th)
+{
+    background-color: #fff;
+}
+
+table :is(td, th)
+{
+    font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    min-width: 130px;
+    padding-left: 16px;
+}
+
+.main-body{
+    padding-left: 32px;
+}
