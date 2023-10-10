@@ -9,7 +9,7 @@ banner: images/scalable-resilient-integration-banner-PREP-5-25-23.jpg
 
 <span id="top"></span>
 
-| DEMO OVERVIEW | | 
+| **DEMO OVERVIEW** | | 
 | :---         | :--- |
 | **Scenario overview** | In this demo we will see how Focus Bank maintains, enhances and elastically scales its IBM MQ and IBM App Connect Enterprise cloud-native integration. |
 | **Demo products** | Cloud Pak for Integration |
@@ -21,13 +21,11 @@ banner: images/scalable-resilient-integration-banner-PREP-5-25-23.jpg
 
 ### **DEMO INSTALLATION AND SETUP**
 
-<details>
+<details markdown="1">
 
 <summary>1 - Provision a Cloud Pak for Integration environment</summary>
 
-<br/>
-
-To provision your Cloud Pak for Integration environment, follow these steps: <br/><br/>
+To provision your Cloud Pak for Integration environment, follow these steps: <br/>
 
 1. To reserve a preinstalled Cloud Pak for Integration (CP4I) cluster on Red Hat OpenShift, go <a href="https://techzone.ibm.com/my/reservations/create/6430260cd7e2100017627406" target="_blank" rel="noreferrer">here</a>. Select if you prefer to make a reservation now or schedule for later. 
 <br/><img src="images/prep-image001.png" width="800" />
@@ -55,7 +53,7 @@ To provision your Cloud Pak for Integration environment, follow these steps: <br
 
 <span id="AccessOpenShift"></span>
 
-<details>
+<details markdown="1">
 
 <summary>2 - Access your OpenShift cluster and install the command line</summary>
 
@@ -101,7 +99,7 @@ You have successfully configured the Openshift command line on your machine.
 
 <span id="cloneGitHub"></span>
 
-<details>
+<details markdown="1">
 
 <summary>3 - Clone the demo assets from a GitHub repository</summary>
 
@@ -131,7 +129,9 @@ To copy the repository you will need to have the Git CLI on your machine. If you
 
 </details>
 
-<details>
+<span id="installDemo"></span>
+
+<details markdown="1">
 
 <summary>4 - Install the demo and access the Web UI</summary>
 
@@ -176,5 +176,5 @@ Your have completed the demo setup.
 **[Go to top](#top)**
 
 </details>
-
+<hr/>
 Click [here](/300-integration-scalable-and-resilient-cloud-native-integration/demo-script) to go to the **Demo script** on the next tab.

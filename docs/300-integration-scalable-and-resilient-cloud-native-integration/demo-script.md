@@ -1,6 +1,6 @@
 ---
 title: Scalable and resilient cloud-native integration <br/>300-level live demo
-layout: preparation
+layout: demoscript
 banner: images/scalable-resilient-integration-banner-SCRIPT-5-25-23.jpg
 ---
 
