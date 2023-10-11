@@ -154,6 +154,7 @@ header{
 .banner-image{
     max-width: 90%;
     height: auto;
+    max-height: 210px;
     margin-top: 0px;
 }
 
