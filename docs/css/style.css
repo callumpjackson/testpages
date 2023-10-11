@@ -53,6 +53,12 @@ li{
     padding-right: 32px;
 }
 
+footer{
+    height: 300px;
+    margin-top: 50px;
+    background: #000;
+}
+
 header{
     font-size: 64pt;
     position: fixed;
@@ -169,10 +175,6 @@ table :is(td){
     border-bottom-style: solid;
 }
 
-table{
-    -webkit-border-vertical-spacing: 0px;
-}
-
 table :is(th)
 {
     background-color: #fff;
@@ -187,6 +189,7 @@ table :is(td, th)
     padding-top: 16px;
     padding-bottom: 16px;
     padding-right: 16px;
+    vertical-align: top;
 }
 
 .main-body{
@@ -211,4 +214,43 @@ p{
 hr{
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.inline-notification {
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem 1rem;
+    min-height: 2.5rem;
+    background: #edf5ff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.inline-notification--info {
+    border: 1px solid #0043CE;
+    border-left-width: 2.4px
+}
+
+.inline-notification__details {
+    display: flex;
+    align-items: center
+}
+
+.inline-notification__icon {
+    height: 20px;
+    width: 20px;
+    min-width: 22px;
+    fill: #0043CE
+}
+
+.inline-notification__text-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem
+}
+
+.inline-notification__text {
+    color: #000000
 }

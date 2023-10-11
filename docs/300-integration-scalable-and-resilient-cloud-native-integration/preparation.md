@@ -49,6 +49,8 @@ To provision your Cloud Pak for Integration environment, follow these steps: <br
 
 **[Go to top](#top)**
 
+<br/><br/>
+
 </details>
 
 <span id="AccessOpenShift"></span>
@@ -90,6 +92,8 @@ You have successfully configured the Openshift command line on your machine.
 
 **[Go to top](#top)**
 
+<br/><br/>
+
 </details>
 
 <span id="cloneGitHub"></span>
@@ -114,6 +118,8 @@ To copy the repository you will need to have the Git CLI on your machine. If you
    <br/>
 
 **[Go to top](#top)**
+
+<br/><br/>
 
 </details>
 
@@ -148,6 +154,8 @@ Your have completed the demo setup.
 <br/>
 
 **[Go to top](#top)**
+
+<br/><br/>
 
 </details>
 <hr/>
