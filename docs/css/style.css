@@ -38,7 +38,7 @@ h1{
     font-weight: 300;
     font-family: "IBM Plex Sans Light","Helvetica Neue",Arial,sans-serif;
     font-size: 100%;
-    font-size: 42pt;
+    font-size: 60px;
     padding-bottom: 0;
     margin: 0;
 }
@@ -71,7 +71,7 @@ header{
     box-sizing: border-box;
     padding: 0;
     padding-left: 32px;
-    height: 290px;
+    height: 320px;
     width: 100%;
     border: 0;
     border-bottom: 1px solid #393939;
@@ -108,7 +108,7 @@ header{
     background-color: #000; 
     padding-left: 5px;
     margin: 0;
-    width: 150px;
+    width: 180px;
     color: #fff;
 }
 
@@ -127,7 +127,7 @@ header{
     border-top-width: 2.6666666px;
     padding-left: 5px;
     margin: 0;
-    width: 150px;
+    width: 180px;
     color: #fff;
     
 }
@@ -137,7 +137,7 @@ header{
     margin: auto;
     margin-left: 10px;
     font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
-    font-size: 11pt;
+    font-size: 16px;
     text-decoration: solid;
     text-align: left;
     display: block;
@@ -152,7 +152,7 @@ header{
 }
 
 .banner-image{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     margin-top: 0px;
 }
@@ -168,6 +168,10 @@ table :is(td){
     border-bottom-style: solid;
 }
 
+table{
+    -webkit-border-vertical-spacing: 0px;
+}
+
 table :is(th)
 {
     background-color: #fff;
@@ -176,8 +180,7 @@ table :is(th)
 table :is(td, th)
 {
     font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
-    font-size: 9pt;
-    font-weight: 400;
+    font-size: 14px;
     min-width: 130px;
     padding-left: 16px;
     padding-top: 16px;
@@ -195,13 +198,13 @@ summary{
     background-color: #E0E0E0;
     border: none;
     cursor: pointer;
-    font-size: 16pt;
+    font-size: 24px;
     font-family: "IBM Plex Sans Light","Helvetica Neue",Arial,sans-serif;
 }
 
 p{
     font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
-    font-size: 11pt;
+    font-size: 16px;
 }
 
 hr{

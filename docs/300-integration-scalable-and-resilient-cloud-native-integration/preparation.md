@@ -57,11 +57,8 @@ To provision your Cloud Pak for Integration environment, follow these steps: <br
 
 <summary>2 - Access your OpenShift cluster and install the command line</summary>
 
-<br/>
 
 In this section, you access your OpenShift cluster and install the OpenShift command line tool. 
-
-<br/>
 
 1. Open the **PakInstaller Portal** link that was included in the final email.
 <br/><img src="images/prep-image101.png" width="800" />
@@ -87,8 +84,6 @@ In this section, you access your OpenShift cluster and install the OpenShift com
 <br/><img src="images/prep-image106-1.png" width="800" />
 <br/><img src="images/prep-image106-2.png" width="800" />
 
-<br/>
-
 You have successfully configured the Openshift command line on your machine.
 
 <br/>
@@ -103,27 +98,20 @@ You have successfully configured the Openshift command line on your machine.
 
 <summary>3 - Clone the demo assets from a GitHub repository</summary>
 
-<br/>
-
 To copy the repository you will need to have the Git CLI on your machine. If you don’t have it, follow the installation steps described in this page, based on your operating system.
 
-<br/>
 
 1. To download the scripts to run the demo, create a directory, and from there run the following command:
 
-<br/>
+   ```git clone https://github.com/IBM/platinum-demo-code-cloud-native-integration.git```
 
-```git clone https://github.com/IBM/platinum-demo-code-cloud-native-integration.git```
-
-<br/>
+   <br/>
 
 2. Change to the new cloud-native-integration directory:
+   
+   ```cd cloud-native-integration```
 
-<br/>
-
-```cd cloud-native-integration```
-
-<br/>
+   <br/>
 
 **[Go to top](#top)**
 
@@ -135,37 +123,23 @@ To copy the repository you will need to have the Git CLI on your machine. If you
 
 <summary>4 - Install the demo and access the Web UI</summary>
 
-<br/>
-
 1. To deploy the demo run:
 
-<br/>
+   ```./deploy.sh```
 
-```./deploy.sh```
+   If you didn’t use CP4I as the project name, you can append your custom project name to the deploy command. For example:
 
-<br/>
+   ```deploy.sh custom-cp4i```
 
-If you didn’t use CP4I as the project name, you can append your custom project name to the deploy command. For example:
-
-<br/>
-
-```deploy.sh custom-cp4i```
-
-<br/>
+   <br/>
 
 2. The deployment will take approximately 10 minutes to install. To wait for the deployment to complete and receive the web console URL run the command:
 
-<br/>
+   ```./getURL.sh```
 
-```./getURL.sh```
+   If you didn’t use CP4I as the project name, you can append your custom project name to the getURL command. For example:
 
-<br/>
-
-If you didn’t use CP4I as the project name, you can append your custom project name to the getURL command. For example:
-
-<br/>
-
-```getURL.sh custom-cp4i```
+   ```getURL.sh custom-cp4i```
 
 <br/>
 
@@ -177,4 +151,4 @@ Your have completed the demo setup.
 
 </details>
 <hr/>
-Click [here](/300-integration-scalable-and-resilient-cloud-native-integration/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.
