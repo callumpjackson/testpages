@@ -48,6 +48,10 @@ h3{
     font-size: 16pt;
 }
 
+strong{
+    font-weight: 600;
+}
+
 li{
     padding-left: 4px;
     padding-right: 32px;
@@ -168,6 +172,10 @@ img{
     margin-top: 20px;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 table :is(td){
     background-color: #f4f4f4;
     border-bottom-color: #E0E0E0;
@@ -252,5 +260,7 @@ hr{
 }
 
 .inline-notification__text {
-    color: #000000
+    color: #000000;
+    font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
 }
