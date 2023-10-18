@@ -57,6 +57,7 @@ li{
     padding-right: 32px;
 }
 
+
 footer{
     height: 300px;
     margin-top: 50px;
@@ -263,4 +264,55 @@ hr{
     color: #000000;
     font-family: "IBM Plex Sans Regular","Helvetica Neue",Arial,sans-serif;
     font-size: 14px;
+}
+
+.code-block{
+    background: #000;
+    color: #FFFFFF;
+    border-color: #000;
+    position: relative; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}
+
+.code-text{
+    flex: 1;
+    padding-left: 16px; 
+}
+
+.copy-icon{
+    position: absolute;
+    position: absolute; 
+    bottom: 2px;
+    right: 2px;
+}
+
+.copy-icon-image{
+    padding-top: 6px
+}
+
+.copy-button{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.copy-button:hover {
+    background-color: #393939; 
+}
+
+.popuptext {
+    opacity: 0;
+    width: 80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 125%;
 }
